@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+}
+
+header {
+    background: #660066;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+header .navbar {
+    padding: 0 100px;
+}
+
+a.nav-link {
+    color: #fff;
+}
+
+.principal {
+    padding-top: 70px;
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    font-size: 40px;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.parte1 {
+    background-image: url('../img/perfil.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    /*position: relative;*/
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+
+.texto {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    width: 350px;
+    /*position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -175px;*/
+}
+
+.yo-soy {    
+    font-weight: 300;    
+}
+
+.texto hr {
+    border: 1px solid #fff;
+    width: 100%;
+    margin: 0;
+}
+
+.nombre {
+    font-weight: 700;
+}
+
+footer {
+    background: #660066;
+    width: 100%;
+    margin-top: 18rem;
+    font-size: 2rem;
+    padding: 5%;
+    display: inline-block;
+    color: #ffffff;
+}
