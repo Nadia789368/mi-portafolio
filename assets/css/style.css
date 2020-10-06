@@ -1,4 +1,8 @@
-body {
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
@@ -10,6 +14,10 @@ header {
     width: 100%;
 }
 
+button {
+   color: #ffffff;
+}
+
 header .navbar {
     padding: 0 100px;
 }
@@ -19,7 +27,7 @@ a.nav-link {
 }
 
 .principal {
-    padding: 5% 5%;
+    padding-top: 70px;
 }
 
 .principal hr {
@@ -83,7 +91,7 @@ a.nav-link {
     margin: 0;
 }
 
-.nombre, #experiencia h1, #experiencia h5, #formulario-de-contacto h1 {
+.nombre, #experiencia h1, #experiencia h5, #formulario-de-contacto h1, #trabajos-realizados h1 {
     font-weight: 700;
 }
 
@@ -108,14 +116,24 @@ h6 {
 #trabajos-realizados {
     background-color: #660066;
     padding: 1em;
-    font-weight: 700;
+    color: #000000;
+}
+
+#trabajos-realizados h1 {
     color: #ffffff;
+}
+
+#trabajos-realizados .row {
+    text-align: left;
 }
 
 #trabajos-realizados hr {
     border: 1px solid #fff;
     width: 20%;
     margin-left: 39%;
+}
+#trabajos-realizados .card {
+    margin: 10px;
 }
 
 footer {
@@ -144,3 +162,10 @@ footer {
     margin-left: 40%;
 }
 
+#formulario-de-contacto button{
+    margin-top: 1em;
+}
+ 
+/*header, .parte1, #experiencia, #trabajos-realizados, #formulario-de-contacto .typeform-widget, #formulario-de-contacto .button, footer {
+    .d-block .d-sm-none
+}*/
