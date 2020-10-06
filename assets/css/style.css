@@ -109,6 +109,10 @@ a.nav-link {
     margin-top: 0;
 }
 
+#experiencia {
+   margin-top: 2em;
+}
+
 h6 {
     font-weight: 300; 
 }
@@ -166,6 +170,3 @@ footer {
     margin-top: 1em;
 }
  
-/*header, .parte1, #experiencia, #trabajos-realizados, #formulario-de-contacto .typeform-widget, #formulario-de-contacto .button, footer {
-    .d-block .d-sm-none
-}*/
