@@ -28,6 +28,16 @@ a.nav-link {
     text-align: center;
 }
 
+.descripcion {
+    padding-top: 6em;
+}
+
+.descripcion .row {
+    padding-top: 3em;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
 .navbar-brand {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -72,6 +82,30 @@ a.nav-link {
     font-weight: 700;
 }
 
+#sobre-mi hr {
+    border: 1px solid gray;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 0;
+}
+
+#experiencia hr {
+    border: 1px solid gray;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 0;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700; 
+}
+
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300; 
+}
+
 #trabajos-realizados {
     background-color: #660066;
     padding: 1em;
@@ -80,10 +114,10 @@ a.nav-link {
     color: #ffffff;
 }
 
-#trabajos-realizados, hr {
+#trabajos-realizados hr {
     border: 1px solid #fff;
-    width: 100%;
-    margin: 0;
+    width: 20%;
+    margin-left: 39%;
 }
 
 footer {
@@ -100,4 +134,15 @@ footer {
     color: #ffffff;
     margin: 0px;
     position: relative;
+}
+
+#formulario-de-contacto {
+    padding-top: 6em;
+    padding-bottom: 15em;
+}
+
+#formulario-de-contacto hr {
+    border: 1px solid gray;
+    width: 20%;
+    margin-left: 40%;
 }
