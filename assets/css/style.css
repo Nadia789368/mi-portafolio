@@ -18,7 +18,14 @@ a.nav-link {
 }
 
 .principal {
-    padding-top: 70px;
+    padding: 5% 5%;
+}
+
+.principal hr {
+    border: 1px solid gray;
+    width: 20%;
+    margin: 0;
+    text-align: center;
 }
 
 .navbar-brand {
@@ -38,7 +45,6 @@ a.nav-link {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    /*position: relative;*/
     display: grid;
     justify-content: center;
     align-items: end;
@@ -50,10 +56,6 @@ a.nav-link {
     color: #ffffff;
     text-shadow: 1px 1px 1px #000000;
     width: 350px;
-    /*position: absolute;
-    left: 50%;
-    bottom: 20px;
-    margin-left: -175px;*/
 }
 
 .yo-soy {    
@@ -70,12 +72,32 @@ a.nav-link {
     font-weight: 700;
 }
 
-footer {
-    background: #660066;
-    width: 100%;
-    margin-top: 18rem;
-    font-size: 2rem;
-    padding: 5%;
-    display: inline-block;
+#trabajos-realizados {
+    background-color: #660066;
+    padding: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
     color: #ffffff;
+}
+
+#trabajos-realizados, hr {
+    border: 1px solid #fff;
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    background-color: #660066;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    padding: 2% 10% 2% 15%;
+}
+
+.footer, a {
+    color: #ffffff;
+    margin: 0px;
+    position: relative;
 }
